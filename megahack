@@ -1,0 +1,67 @@
+#!/data/data/com.termux/files/usr/bin/bash
+mkdir output
+cd output
+mkdir android
+mkdir windows
+mkdir linux
+mkdir macOS
+mkdir Php
+mkdir Bash
+mkdir python
+clear
+tput setaf 2; echo "________________________________ "
+tput setaf 2; echo "|      Made By Hacker Dj        |"
+tput setaf 2; echo "|   dhanu7673.gihub.com         |"
+tput setaf 2; echo "| dhananjaysah9825@gmail.com    |"
+tput setaf 2; echo "|    Mr.Dhananjay sah           |"
+tput setaf 2; echo "|_______________________________|"
+echo " "
+toilet -f mono12  "Mega"  | lolcat && toilet -f mono12  "  Hack"  | lolcat
+echo " "
+tput setaf 1; echo "                      ████████████████             "
+tput setaf 1; echo "               ██████░░░░░░░░░░░░░░░░██████        "
+tput setaf 1; echo "              ██░░░░░░                ░░░░░░██     "
+tput setaf 1; echo "            ██░░                            ░░██   "
+tput setaf 1; echo "          ██░░                                ░░██ "
+tput setaf 1; echo "          ██    ██████                ██████    ██ "
+tput setaf 1; echo "          ██  ░░░░░░░░████        ████░░░░░░░░  ██ "
+tput setaf 1; echo "          ██          ░░████    ████░░          ██ "
+tput setaf 1; echo "          ██            ░░░░    ░░░░            ██ "
+tput setaf 1; echo "          ██░░  ░░██████░░░░    ░░░░██████░░  ░░██ "
+tput setaf 1; echo "          ██░░░░██████████░░    ░░██████████░░░░██ "
+tput setaf 1; echo "          ██░░  ░░░░░░░░  ░░    ░░  ░░░░░░░░  ░░██ "
+tput setaf 1; echo "          ██              ░░    ░░              ██ "
+tput setaf 1; echo "          ██  ░░░░░░      ░░    ░░      ░░░░░░  ██ "
+tput setaf 1; echo "          ██  ░░░░░░    ░░        ░░    ░░░░░░  ██ "
+tput setaf 1; echo "          ██░░          ░░        ░░          ░░██ "
+tput setaf 1; echo "          ██░░░░██        ██░░░░██        ██░░░░██ "
+tput setaf 1; echo "          ██░░  ██████░░████████████░░██████  ░░██ "
+tput setaf 1; echo "          ██  ░░  ██████████    ██████████  ░░  ██ "
+tput setaf 1; echo "            ██  ░░░░    ░░░░░░░░░░░░    ░░░░  ██   "
+tput setaf 1; echo "            ██      ░░                ░░      ██   "
+tput setaf 1; echo "              ██  ░░  ░░░░░░████░░░░░░  ░░  ██     "
+tput setaf 1; echo "              ██░░  ░░      ████      ░░  ░░██     "
+tput setaf 1; echo "                ██░░      ░░████░░      ░░██       "
+tput setaf 1; echo "                  ██░░    ░░████░░    ░░██         "
+tput setaf 1; echo "                    ██░░░░  ████  ░░░░██           "
+tput setaf 1; echo "                      ████░░████░░████             "
+tput setaf 1; echo "                          ████████                 "
+echo " "
+echo " "
+echo " "
+tput setaf 5; echo "[1] PAYLOAD GENERATE"
+echo " "
+tput setaf 6; echo "[2] START LISTNER"
+echo " "
+tput setaf 7; echo "[3] UPDATE"
+echo " "
+tput setaf 1; echo "[4] EXIT"
+echo " "
+read -p 'MeGaHaCk#❯❯❯ ' task
+if [ "4" = "$task" ]
+then
+	exit
+else
+	echo " "
+fi
+cd $HOME/megahack && bash ".${task}.sh"
