@@ -9,10 +9,12 @@ tput setaf 4; echo "INPUT APP PATH "
 read path
 echo " "
 tput setaf 1; echo "LHOST"
-read lhost
+echo " "
+read -p 'lhost= ' lhost
 echo " "
 tput setaf 2; echo "LPORT"
-read lport
+echo " "
+read -p 'lport= ' lport
 echo " "
 tput setaf 3; echo "OUTPUT FILENAME"
 read out
