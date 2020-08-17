@@ -7,8 +7,8 @@ do
 done
 cd
 rm -rf megahack
-git clone https://github.com/dhanu7673/M3gaHack
-cd M3gaHack
+git clone https://github.com/dhanu7673/megahack
+cd megahack
 bash install.sh
 cd megahack && bash megahack
 
