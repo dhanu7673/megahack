@@ -1,3 +1,5 @@
+# Termux
+ Only For Termux users
 # megahack
 Made By HackerDJ
 FROM NEPAL🇳🇵
