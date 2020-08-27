@@ -10,7 +10,7 @@ read -p 'lhost= ' lhost
 echo " " 
 tput setaf 2; echo "SET LPORT"
 echo " "
-read 'lport= ' lport 
+read lport 
 echo " "
 tput setaf 3; echo " OUTPUT NAME"
 read path
