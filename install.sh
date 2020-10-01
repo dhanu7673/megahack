@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install figlet -y
+pkg install ncurses-utils
 clear
 tput setaf 5; echo " █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
  █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
