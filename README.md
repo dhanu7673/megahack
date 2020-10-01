@@ -4,7 +4,7 @@ By the help of this tool you can easily make payload
 # Termux
  Only For Termux users
 # megahack
-Made By HackerDJ
+Made By HackerDJ 🔥
 FROM NEPAL🇳🇵
 
    # INSTLATIONS
